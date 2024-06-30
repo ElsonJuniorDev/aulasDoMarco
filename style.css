@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #2152c4;
+  }
+  
+  main {
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .brasao {
+    width: 250px;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42px;
+  }
+  
+  .cpf::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  .cpf:focus {
+    outline: 0;
+  }
+  .cpf {
+    
+    padding: 8px;
+    margin-bottom: 36px;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .submit {
+    font-weight: 600;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .resultado {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .valido {
+    
+    color: #3ec73c;
+  }
+  .invalido {
+      color: #c73c47;
+  }
+  

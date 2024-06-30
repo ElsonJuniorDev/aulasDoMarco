@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador De CPF</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <img
+          class="brasao"
+          src="img/brasao-da-republica-federativa-do-brasil-seeklogo.svg"
+          alt="brasão"
+        />
+      </div>
+      <h1 class="title">Verificador De CPF</h1>
+      <form class="form" id="cpfForm">
+        <input
+          class="cpf"
+          id="cpf"
+          type="number"
+          required
+          placeholder="Digite o seu CPF"
+        />
+        <button class="submit" type="submit">Verificar</button>
+      </form>
+      <div class="resultado">
+        <p id="resultado"></p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
